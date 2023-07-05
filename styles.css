@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .logo {
@@ -14,7 +14,6 @@ body {
   color: var(--primary-b-400, #6070ff);
   text-align: center;
   font-size: 18px;
-  font-family: Poppins;
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
