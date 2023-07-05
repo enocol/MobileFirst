@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+.logo {
+  display: block;
+  color: var(--primary-b-400, #6070ff);
+  text-align: center;
+  font-size: 18px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.navcontainer {
+  margin: 20px;
+}
+
+.hamburger {
+  display: block;
+  margin-right: 20px;
+  width: 24px;
+  height: 24px;
+  color: #6070ff;
+}
+
+.menu-list {
+  display: none;
+}
+
+.section {
+  background: url("./Images/bg-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 650px;
+  padding-top: 130px;
+  border-bottom-left-radius: 60px;
+  background-color: #fff;
+}
+
+.sectionheading {
+  display: flex;
+  width: 327px;
+  height: 150px;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--neutrals-n-800, #172b4d);
+  font-size: 40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.sectionparagraph {
+  padding: 20px 20px 5px 20px;
+  color: var(--neutrals-n-600, #344563);
+  font-size: 16px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  height: auto;
+  margin-right: 0;
+}
+
+.socialmedia {
+  display: block;
+  color: var(--primary-b-300, #7f8cff);
+  font-size: 16px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 5px 0 0 20px;
+}
+
+.media {
+  display: flex;
+  padding: 5px 0 0 20px;
+  gap: 0.5rem;
+  width: 170.167px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .menu-list {
+    display: block;
+  }
+
+  .menu {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .section {
+    background-image: url("./Images/Header-bg@2x.png");
+    background-repeat: no-repeat;
+    background-size: 99% 99%;
+    width: 99%;
+    padding: 200px 10px 0 200px;
+    height: auto;
+  }
+
+  .sectionparagraph {
+    flex-direction: row;
+    margin-right: 0;
+    width: 100%;
+    height: auto;
+  }
+}
