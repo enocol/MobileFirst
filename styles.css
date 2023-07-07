@@ -109,7 +109,6 @@ body {
 .card {
   display: grid;
   grid-template-columns: 90%;
-
   gap: 88px;
   justify-content: center;
   align-items: center;
