@@ -32,7 +32,7 @@
 
 # MobileFirst Project <a name="about-project">Mobile First</a>
 
-**Hello Microverse** is a HTML/Css project that display a colorfull "Hello Microverse" text.
+**Mobile First project** is a HTML/Css project of a Software developer for smaller screens. Eg mobile phone.
 
 ## 🛠 Built With <a name="built-with">Visual Studio</a>
 
@@ -65,10 +65,6 @@
 - **Mobile View of Portfolio site**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Demo link is coming soon](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
