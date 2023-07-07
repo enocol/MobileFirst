@@ -21,6 +21,11 @@ body {
   line-height: 20px;
 }
 
+.header {
+  border: 1px solid white;
+  background: white;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -261,6 +266,15 @@ button {
   margin: 20px;
 }
 
+.m-t {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
 .lan {
   justify-content: space-between;
   align-items: center;
@@ -271,6 +285,7 @@ button {
   margin-right: 40px;
   width: 24px;
   height: 24px;
+  font-weight: 600px;
 }
 
 .exp {
@@ -280,7 +295,7 @@ button {
 }
 
 .exp-1 {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid lightgray;
 }
 
 /* media query starts here for desktop */
