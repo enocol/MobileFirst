@@ -217,23 +217,71 @@ button {
 }
 
 .about-myself {
-  border: 1px solid blue;
-  margin-top: 20px;
-  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  padding-top: 30px;
   background: white;
   border-top-right-radius: 60px;
   width: 100%;
 }
 
-.technologies {
-  border: 1px solid red;
+.myself {
+  margin-left: 20px;
+  height: auto;
 }
 
-.myself {
-  width: 100%;
+.resume-button {
   margin-left: 20px;
-  display: block;
-  height: auto;
+}
+
+.tech,
+.details {
+  padding: 15px;
+}
+
+.tech {
+  padding: 20px;
+}
+
+.tech-stack {
+  display: flex;
+  align-items: center;
+  width: 303px;
+  padding: 9px 12px 9.716px 12px;
+  gap: 16px;
+  border-radius: 8px;
+  background: var(--neutrals-n-10, #f7f7f9);
+}
+
+.m-s ul {
+  margin: 10px;
+}
+
+.m-s .m-t {
+  margin: 20px;
+}
+
+.lan {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  color: #5e6c84;
+  margin-right: 40px;
+  width: 24px;
+  height: 24px;
+}
+
+.exp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.exp-1 {
+  border-bottom: 1px solid;
 }
 
 /* media query starts here for desktop */
@@ -271,5 +319,17 @@ button {
   .grid-items {
     flex-direction: row;
     justify-content: center;
+  }
+
+  .about-myself {
+    flex-direction: row;
+  }
+
+  .tech-stack {
+    flex-direction: column;
+  }
+
+  .details {
+    width: 50%;
   }
 }
