@@ -140,7 +140,6 @@ body {
 
 span {
   color: var(--neutrals-n-600, #344563);
-  font-family: "Poppins";
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
@@ -158,7 +157,6 @@ span {
 
 .listA li {
   color: var(--neutrals-n-100, #7a869a);
-  font-family: "Poppins";
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
@@ -167,7 +165,6 @@ span {
 
 .cards-details p {
   color: var(--neutrals-n-600, #344563);
-  font-family: "Poppins";
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -192,7 +189,6 @@ span {
 
 .listB-items {
   color: var(--primary-b-400, #6070ff);
-  font-family: "Poppins";
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -207,7 +203,6 @@ span {
 button {
   color: var(--primary-b-500, #396df2);
   text-align: center;
-  font-family: "Poppins";
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -262,17 +257,16 @@ button {
   margin: 10px;
 }
 
-.m-s .m-t {
-  margin: 20px;
-}
-
 .m-t {
   color: #000;
-  font-family: "Poppins";
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
+}
+
+.m-s .m-t {
+  margin: 20px;
 }
 
 .lan {
