@@ -326,8 +326,6 @@ button:active {
   margin: 5px;
 }
 
-/* media query starts here for desktop */
-
 @media screen and (min-width: 768px) {
   .hamburger {
     display: none;
