@@ -380,7 +380,6 @@ button:active {
   border-radius: 8px;
   border: 1px solid #cfd8dc;
   background: #fff;
-
   color: var(--neutral-n-800, #172b4d);
   font-family: "Poppins", sans-serif;
   font-size: 17px;
