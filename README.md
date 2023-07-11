@@ -63,6 +63,7 @@
 ### Key Features <a name="key-features">Mobile View of Portfolio site</a>
 
 - **Mobile View of Portfolio site**
+- **Contact form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,6 +130,7 @@ Deploy this project on any websever
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Desktop View of Portfolio site**
+- [ ] **Contact Form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
