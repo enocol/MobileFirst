@@ -242,8 +242,7 @@ button:active {
   background: white;
   border-top-right-radius: 60px;
   width: 100%;
-  height: auto;
-  height: 200vh;
+  height: 140vh;
 }
 
 .myself {
