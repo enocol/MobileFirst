@@ -82,6 +82,7 @@ body {
   font-weight: 700;
   line-height: 44px;
   width: 295px;
+  border: 1px solid red;
 }
 
 .sectionparagraph {
@@ -141,7 +142,6 @@ body {
 .cards {
   width: 100%;
   padding: 10px;
-  border: 1px solid red;
 }
 
 .cards img {
@@ -359,6 +359,11 @@ button:active {
   align-items: center;
 }
 
+.cards-details p {
+  width: 100%;
+  padding: 10px;
+}
+
 .contactpara {
   text-align: center;
   color: var(--primary-b-50, #ebebff);
@@ -494,5 +499,29 @@ button:active {
   .emailinput,
   .messageinput {
     border-radius: 0;
+  }
+
+  .grid-items .cards-B {
+    order: 2;
+  }
+
+  .grid-items .card-2 {
+    order: 1;
+  }
+
+  .grid-items .cards-D {
+    order: 2;
+  }
+
+  .grid-items .card-4 {
+    order: 1;
+  }
+
+  .card-sm {
+    padding: 20px;
+  }
+
+  .cards-A img {
+    content: url("./Images/Snapshoot-Portfolio4.png");
   }
 }
