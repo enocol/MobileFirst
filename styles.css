@@ -33,6 +33,7 @@ body {
   align-items: center;
   width: 100%;
   flex-wrap: wrap;
+  padding: 0 50px;
 }
 
 .navcontainer {
