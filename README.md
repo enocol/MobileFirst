@@ -64,6 +64,7 @@
 
 - **Mobile View of Portfolio site**
 - **Contact form**
+- **Desktop View of Portfolio site**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,8 +130,8 @@ Deploy this project on any websever
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Desktop View of Portfolio site**
-- [ ] **Contact Form**
+- [ ] **Desktop View now available**
+- [ ] **Contact Form now available**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

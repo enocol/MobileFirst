@@ -24,6 +24,7 @@ body {
 .header {
   border: 1px solid white;
   background: white;
+  padding: 25px;
 }
 
 .navbar {
@@ -32,6 +33,7 @@ body {
   align-items: center;
   width: 100%;
   flex-wrap: wrap;
+  padding: 0 50px;
 }
 
 .navcontainer {
@@ -82,6 +84,7 @@ body {
   font-weight: 700;
   line-height: 44px;
   width: 295px;
+  padding: 5px;
 }
 
 .sectionparagraph {
@@ -148,51 +151,50 @@ body {
 }
 
 span {
-  color: var(--neutrals-n-600, #344563);
-  font-size: 13px;
+  color: var(--theme-1-neutrals-3, #344563);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 16px;
+  font-weight: 550;
+  line-height: 24px;
 }
 
 .listA {
   display: flex;
+  gap: 25px;
 }
 
 .project {
   display: flex;
   align-items: center;
-}
-
-.listA li {
-  color: var(--neutrals-n-100, #7a869a);
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 16px;
+  padding: 10px;
+  gap: 25px;
+  height: 50px;
 }
 
 .cards-details p {
   font-size: 15px;
   font-style: normal;
   line-height: 24px;
-  width: 295px;
   height: 76px;
   color: #344563;
+  width: 100%;
+  padding: 10px;
 }
 
 .listB {
-  display: flex;
   margin-top: 10px;
+  display: flex;
 }
 
 .listA-items {
-  margin: 20px;
-  list-style-type: circle;
-}
-
-.project span {
-  margin-right: 10px;
+  list-style-type: disc;
+  color: var(--theme-1-neutrals-6, #6b778c);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .listB-items {
@@ -241,8 +243,7 @@ button:active {
   padding-top: 30px;
   background: white;
   border-top-right-radius: 60px;
-  width: 100%;
-  height: 210vh;
+  height: 200vh;
 }
 
 .myself {
@@ -267,15 +268,12 @@ button:active {
 
 .tech {
   padding: 20px;
-  height: 500px;
 }
 
 .tech-stack {
   display: flex;
   align-items: center;
-  width: 303px;
   padding: 9px 12px 9.716px 12px;
-  gap: 16px;
   border-radius: 8px;
   background: var(--neutrals-n-10, #f7f7f9);
 }
@@ -457,13 +455,84 @@ button:active {
 
   .about-myself {
     flex-direction: row;
+    height: 90vh;
   }
 
   .tech-stack {
     flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: auto;
+    margin: 0;
+  }
+
+  .j-h-c {
+    display: flex;
+  }
+
+  .details,
+  .tech {
+    width: 50%;
+  }
+
+  .contactform-container {
+    display: flex;
+    justify-content: center;
+    background-image: none;
+    background-image: url("./Images/contactbackground-ds.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center left;
+    height: 120vh;
+  }
+
+  .contactform {
+    width: 44%;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .nameinput,
+  .emailinput,
+  .messageinput {
+    border-radius: 0;
+    padding: 12px;
+    width: 90%;
+  }
+
+  .grid-items .cards-B {
+    order: 2;
+  }
+
+  .grid-items .card-2 {
+    order: 1;
+  }
+
+  .grid-items .cards-D {
+    order: 2;
+  }
+
+  .grid-items .card-4 {
+    order: 1;
+  }
+
+  .card-sm {
+    padding: 20px;
+  }
+
+  .cards-A img {
+    content: url("./Images/Snapshoot-Portfolio4.png");
+  }
+
+  .submitbutton {
+    width: 30%;
   }
 
   .details {
-    width: 50%;
+    padding-left: 65px;
+  }
+
+  .tech {
+    padding-left: 0;
   }
 }
