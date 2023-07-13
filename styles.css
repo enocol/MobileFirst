@@ -141,6 +141,7 @@ body {
 .cards {
   width: 100%;
   padding: 10px;
+  border: 1px solid red;
 }
 
 .cards img {
@@ -182,8 +183,8 @@ span {
 }
 
 .listB {
-  display: flex;
   margin-top: 10px;
+  display: flex;
 }
 
 .listA-items {
@@ -241,8 +242,7 @@ button:active {
   padding-top: 30px;
   background: white;
   border-top-right-radius: 60px;
-  width: 100%;
-  height: 210vh;
+  height: 200vh;
 }
 
 .myself {
@@ -267,15 +267,13 @@ button:active {
 
 .tech {
   padding: 20px;
-  height: 500px;
 }
 
 .tech-stack {
   display: flex;
   align-items: center;
-  width: 303px;
   padding: 9px 12px 9.716px 12px;
-  gap: 16px;
+  gap: 10px;
   border-radius: 8px;
   background: var(--neutrals-n-10, #f7f7f9);
 }
@@ -457,13 +455,44 @@ button:active {
 
   .about-myself {
     flex-direction: row;
+    height: 90vh;
   }
 
   .tech-stack {
     flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 20%;
   }
 
-  .details {
+  .j-h-c {
+    display: flex;
+  }
+
+  .details,
+  .tech {
     width: 50%;
+  }
+
+  .contactform-container {
+    display: flex;
+    justify-content: center;
+    background-image: none;
+    background-image: url("./Images/contactbackground-ds.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center left;
+    height: 115vh;
+  }
+
+  .contactform {
+    width: 45%;
+    align-items: center;
+  }
+
+  .nameinput,
+  .emailinput,
+  .messageinput {
+    border-radius: 0;
   }
 }
