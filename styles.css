@@ -487,8 +487,9 @@ button:active {
   }
 
   .contactform {
-    width: 40%;
+    width: 44%;
     align-items: center;
+    gap: 1.5rem;
   }
 
   .nameinput,
@@ -496,6 +497,7 @@ button:active {
   .messageinput {
     border-radius: 0;
     padding: 12px;
+    width: 90%;
   }
 
   .grid-items .cards-B {
