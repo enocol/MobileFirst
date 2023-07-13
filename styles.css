@@ -483,11 +483,11 @@ button:active {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center left;
-    height: 115vh;
+    height: 120vh;
   }
 
   .contactform {
-    width: 45%;
+    width: 40%;
     align-items: center;
   }
 
@@ -495,6 +495,7 @@ button:active {
   .emailinput,
   .messageinput {
     border-radius: 0;
+    padding: 12px;
   }
 
   .grid-items .cards-B {
