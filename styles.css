@@ -24,6 +24,7 @@ body {
 .header {
   border: 1px solid white;
   background: white;
+  padding: 25px;
 }
 
 .navbar {
@@ -75,6 +76,10 @@ body {
   line-height: 52px;
 }
 
+.margin-2 {
+  margin-right: 10px;
+}
+
 .h-1 {
   color: var(--neutrals-n-800, #172b4d);
   font-size: 32px;
@@ -82,7 +87,7 @@ body {
   font-weight: 700;
   line-height: 44px;
   width: 295px;
-  border: 1px solid red;
+  padding: 5px;
 }
 
 .sectionparagraph {
@@ -163,6 +168,7 @@ span {
 .project {
   display: flex;
   align-items: center;
+  padding: 10px;
 }
 
 .listA li {
@@ -188,7 +194,7 @@ span {
 }
 
 .listA-items {
-  margin: 20px;
+  margin: 10px;
   list-style-type: circle;
 }
 
@@ -523,5 +529,9 @@ button:active {
 
   .cards-A img {
     content: url("./Images/Snapshoot-Portfolio4.png");
+  }
+
+  .submitbutton {
+    width: 30%;
   }
 }
