@@ -156,7 +156,7 @@ body {
 
 span {
   color: var(--theme-1-neutrals-3, #344563);
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 550;
@@ -165,20 +165,15 @@ span {
 
 .listA {
   display: flex;
+  gap: 25px;
 }
 
 .project {
   display: flex;
   align-items: center;
   padding: 10px;
-}
-
-.listA li {
-  color: var(--neutrals-n-100, #7a869a);
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 16px;
+  gap: 25px;
+  height: 50px;
 }
 
 .cards-details p {
@@ -197,12 +192,14 @@ span {
 }
 
 .listA-items {
-  margin: 10px;
   list-style-type: disc;
-}
-
-.project span {
-  margin-right: 10px;
+  color: var(--theme-1-neutrals-6, #6b778c);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  border: 1px solid red;
 }
 
 .listB-items {
