@@ -77,10 +77,6 @@ body {
   line-height: 52px;
 }
 
-.margin-2 {
-  margin-right: 10px;
-}
-
 .h-1 {
   color: var(--neutrals-n-800, #172b4d);
   font-size: 32px;
@@ -199,7 +195,6 @@ span {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  border: 1px solid red;
 }
 
 .listB-items {
@@ -279,7 +274,6 @@ button:active {
   display: flex;
   align-items: center;
   padding: 9px 12px 9.716px 12px;
-  gap: 10px;
   border-radius: 8px;
   background: var(--neutrals-n-10, #f7f7f9);
 }
@@ -468,7 +462,8 @@ button:active {
     flex-direction: column;
     align-items: start;
     justify-content: start;
-    width: 20%;
+    width: auto;
+    margin: 0;
   }
 
   .j-h-c {
@@ -528,5 +523,13 @@ button:active {
 
   .submitbutton {
     width: 30%;
+  }
+
+  .details {
+    padding-left: 65px;
+  }
+
+  .tech {
+    padding-left: 0;
   }
 }
