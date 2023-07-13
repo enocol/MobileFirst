@@ -155,11 +155,12 @@ body {
 }
 
 span {
-  color: var(--neutrals-n-600, #344563);
-  font-size: 13px;
+  color: var(--theme-1-neutrals-3, #344563);
+  font-family: Poppins;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 16px;
+  font-weight: 550;
+  line-height: 24px;
 }
 
 .listA {
@@ -197,7 +198,7 @@ span {
 
 .listA-items {
   margin: 10px;
-  list-style-type: circle;
+  list-style-type: disc;
 }
 
 .project span {
