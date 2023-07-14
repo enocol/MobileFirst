@@ -23,8 +23,13 @@ body {
 
 .header {
   border: 1px solid white;
-  background: white;
+  height: 80px;
   padding: 25px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: goldenrod;
 }
 
 .navbar {
@@ -157,6 +162,8 @@ span {
   font-style: normal;
   font-weight: 550;
   line-height: 24px;
+
+  transition: font-size 4s 1s;
 }
 
 .listA {
