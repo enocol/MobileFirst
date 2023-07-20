@@ -130,6 +130,7 @@ Deploy this project on any websever
 
 - GitHub: [@githubhandle](https://github.com/enocol)
 - link: https://enocol.github.io/
+- link (Loom video of the project): (https://www.loom.com/share/b1ee1c8b25e94384b80e7fec56521117?sid=973cba13-086c-4d1b-b4fe-03d1cc11e9f8)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
