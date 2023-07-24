@@ -11,3 +11,9 @@ hamburger.addEventListener("click", function () {
 closebutton.addEventListener("click", function () {
   menulist.classList.remove("menu-visible");
 });
+
+for (let menu of menuitems) {
+  menu.addEventListener("click", function () {
+    menulist.classList.remove("menu-visible");
+  });
+}

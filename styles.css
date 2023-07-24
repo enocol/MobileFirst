@@ -89,7 +89,7 @@ body {
   top: 0;
   left: 0;
   position: fixed;
-  padding: 80px 0 0 10px;
+  padding: 80px 0 0 45px;
   backdrop-filter: blur(10px);
   background: var(--theme-1-primary-colors-2, #6070ff);
   mix-blend-mode: multiply;
