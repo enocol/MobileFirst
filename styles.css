@@ -49,6 +49,17 @@ body {
 
 .menu-item {
   margin: 10px 0;
+  width: auto;
+}
+
+.menu-list a {
+  width: auto;
+}
+
+.menu-list a:hover {
+  color: white;
+  background: blue;
+  width: auto;
 }
 
 .menu {
@@ -77,7 +88,7 @@ body {
   top: 0;
   left: 0;
   position: fixed;
-  padding: 80px 0 0 45px;
+  padding: 80px 0 0 10px;
   backdrop-filter: blur(10px);
   background: var(--theme-1-primary-colors-2, #6070ff);
   mix-blend-mode: multiply;
