@@ -30,9 +30,12 @@
           </div>
 
           <ul class="menu menu-list">
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <div class="closebutton">
+              <i class="fa-solid fa-x"></i>
+            </div>
+            <li><a class="menu-item" href="#portfolio">Portfolio</a></li>
+            <li><a class="menu-item" href="#about">About</a></li>
+            <li><a class="menu-item" href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -63,7 +66,7 @@
         <div class="cards cards-A">
           <img src="./Images/Snapshoot-Portfolio.png" alt="" />
         </div>
-        <div class="cards card-1 card-sm">
+        <div class="cards card-1 card-sm" id="portfolio">
           <h1 class="h-1">Tonic</h1>
           <div class="cards-details">
             <div class="project">
@@ -174,7 +177,7 @@
     </section>
     <section class="about-myself">
       <div class="details">
-        <h1 class="sectionheading">About Myself</h1>
+        <h1 class="sectionheading" id="about">About Myself</h1>
 
         <div class="about-myself-paragraph">
           <p class="myself">
@@ -237,6 +240,7 @@
         action="https://formspree.io/f/mwkdkrga"
         method="post"
         class="contactform"
+        id="contact"
       >
         <div class="contactheading">
           <h2 class="c-h">Contact me</h2>
@@ -277,5 +281,7 @@
         <button class="submitbutton">Get in touch</button>
       </form>
     </section>
+
+    <script src="index.js"></script>
   </body>
 </html>
