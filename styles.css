@@ -60,6 +60,7 @@ body {
   color: white;
   background: blue;
   width: auto;
+  transition-delay: 2s ease-in-out;
 }
 
 .menu {
