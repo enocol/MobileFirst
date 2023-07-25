@@ -11,6 +11,27 @@ body {
   background: #f7f7f9;
 }
 
+.popupwindow {
+  display: none;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  opacity: 1;
+  overflow: scroll;
+  background: var(--neutrals-n-50, #c1c7d0);
+  height: 100vh;
+}
+
+.popupwindowhidden {
+  visibility: hidden;
+}
+
+.visible {
+  display: block;
+}
+
 .logo {
   display: block;
   color: var(--primary-b-400, #6070ff);
@@ -103,6 +124,25 @@ body {
   left: 80%;
   font-size: 20px;
   color: white;
+}
+
+.window {
+  width: 90%;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  padding: 15px;
+  opacity: 1;
+  border-radius: 16px;
+  border: 1px solid var(--neutrals-n-40, red);
+  background: var(--neutrals-n-0, #fff);
+  height: auto;
+}
+.icon-close {
+  top: 25px;
+  left: 85%;
+  position: absolute;
+  z-index: 1;
 }
 
 .section {
@@ -588,5 +628,25 @@ button:active {
 
   .tech {
     padding-left: 0;
+  }
+
+  .window {
+    width: 90%;
+    position: absolute;
+    top: 25px;
+    left: 55px;
+    padding: 15px;
+    opacity: 1;
+    border-radius: 16px;
+    border: 1px solid var(--neutrals-n-40, blue);
+    background: var(--neutrals-n-0, #fff);
+    height: auto;
+  }
+
+  .icon-close {
+    top: 30px;
+    left: 95%;
+    position: absolute;
+    z-index: 1;
   }
 }
