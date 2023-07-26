@@ -260,7 +260,7 @@
           id="username"
           placeholder="Lorem Ipsum"
           maxlength="30"
-          required
+          value=""
         />
         <input
           class="emailinput"
@@ -268,7 +268,7 @@
           name="email"
           id="email"
           placeholder="Loremipsum@gmail.com"
-          required
+          value=""
         />
         <textarea
           name="textarea"
@@ -278,9 +278,10 @@
           maxlength="500"
           class="messageinput"
           placeholder="Write your message here"
-          required
+          value=""
         ></textarea>
         <button class="submitbutton">Get in touch</button>
+        <div id="errormessage"></div>
       </form>
     </section>
 
