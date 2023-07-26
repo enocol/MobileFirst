@@ -49,8 +49,10 @@ div.innerHTML = `<div class="window">
                 <li class="bootstrap">Boostrap</li>
               </ul>
             
-              <button>See Live</button>
-              <button>See source</button></div>
+              <button  class="btn1 btn-1">See Live<img src="./images/icon.png" alt="" class="icon-img"></button>
+              <button class="btn2 btn-1">See source<i class="fa-brands fa-github"></i></button>
+              
+              </div>
             </div>
 
           </div>
