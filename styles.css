@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style-type: none;
+
   text-decoration: none;
 }
 
@@ -97,6 +97,7 @@ body {
 
 .menu {
   display: none;
+  list-style: none;
 }
 
 .menucolor {
@@ -220,6 +221,7 @@ body {
   width: 170.167px;
   flex-shrink: 0;
   height: 50px;
+  list-style: none;
 }
 
 .fa-brands {
@@ -289,6 +291,7 @@ span {
 .listB {
   margin-top: 10px;
   display: flex;
+  list-style: none;
 }
 
 .listA-items {
@@ -324,8 +327,9 @@ button {
   letter-spacing: 0.51px;
   padding: 12px;
   margin-top: 20px;
+  margin-right: 0;
   border-radius: 8px;
-  border: 1px solid var(--primary-b-400, #6070ff);
+  border: 1px solid var(--primary-b-400, #396df2);
   background: white;
 }
 
@@ -380,6 +384,7 @@ button:active {
   padding: 9px 12px 9.716px 12px;
   border-radius: 8px;
   background: var(--neutrals-n-10, #f7f7f9);
+  list-style: none;
 }
 
 .m-s ul {
@@ -419,6 +424,7 @@ button:active {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  list-style: none;
 }
 
 .exp-1 {
@@ -530,8 +536,7 @@ button:active {
 .canopy-list {
   display: flex;
   gap: 25px;
-  list-style: disc;
-
+  list-style-type: disc;
   color: var(--neutrals-n-100, #7a869a);
   font-family: Poppins;
   font-size: 13px;
@@ -557,7 +562,6 @@ button:active {
 .img img {
   width: 311px;
   height: 220px;
-
   border-radius: 8px;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
@@ -568,6 +572,7 @@ button:active {
   margin-top: 10px;
   flex-wrap: wrap;
   width: 70%;
+  list-style: none;
 }
 
 .list-B li {
@@ -582,7 +587,7 @@ button:active {
   background: var(--primary-b-50, #ebebff);
   height: auto;
   width: auto;
-  padding: 10px;
+  padding: 5px;
 }
 
 .card-3 .p-1 {
@@ -597,15 +602,37 @@ button:active {
 .text-container {
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
 }
 
 .list-B {
   display: flex;
   gap: 20px;
   margin-top: 10px;
-  width: 100%;
+  width: 70%;
+  list-style: none;
 }
 
+.fa-github {
+  margin-left: 10px;
+  width: 18px;
+  height: 20px;
+  flex-shrink: 0;
+  color: #6070ff;
+}
+
+.icon-img {
+  margin-left: 5px;
+}
+
+.btn-1 {
+  display: inline-flex;
+  gap: 5px;
+}
+
+.btn1 {
+  margin-right: 10px;
+}
 @media screen and (min-width: 768px) {
   .hamburger {
     display: none;
@@ -653,6 +680,7 @@ button:active {
     justify-content: start;
     width: auto;
     margin: 0;
+    list-style: none;
   }
 
   .j-h-c {
@@ -778,6 +806,7 @@ button:active {
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    margin-top: 20px;
   }
 
   .buttons {
