@@ -44,8 +44,8 @@ div.innerHTML = `<div class="window">
               <ul class="list-B">
                 <li class="">HTML</li>
                 <li class="">Css</li>
-                <li class="">JavaScript</li>
-                <li class="ruby">Ruby</li>
+                <li class="">Ruby</li>
+                <li class="ruby">JavaScript</li>
                 <li class="bootstrap">Boostrap</li>
               </ul>
             
@@ -79,22 +79,31 @@ for (let btn of projectbtn) {
 
     const card = e.target.parentNode.parentNode.parentNode;
 
-    const h1 = card.querySelector(".h-1").innerHTML;
+    const name = card.querySelector(".h-1").innerHTML;
     const span = card.querySelector(".project span").innerHTML;
-    const backend = card.querySelectorAll(".listA-items");
-    const img = card.querySelector(".cards img").src;
-    const paragraph = card.querySelector(".p-1");
-    console.log(paragraph);
+    const technologies = card.querySelectorAll(".listA-items");
+    const featureimage = card.querySelector(".cards img").src;
+    const decription = card.querySelector(".p-1");
+    console.log(decription);
 
     const portfolio = card.querySelectorAll(".listB-items");
 
-    array[0] = h1;
+    array[0] = name;
     array[1] = span;
-    array[2] = { list1: backend[0].innerHTML, list2: backend[1].innerHTML };
-    array[3] = img;
-    array[4] = `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    array[2] = {
+      list1: technologies[0].innerHTML,
+      list2: technologies[1].innerHTML,
+    };
+    array[3] = featureimage;
+    array[4] = `<p class="paragraphA">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+     when an unknown printer took a galley of type and scrambled it 1960s. 
+     Lorem Ipsum is simply dummy text of the printing and typesetting industry.</P>
 
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`;
+
+<p class="paragraphB">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.</p>`;
     array[5] = {
       portfolio1: portfolio[0].innerHTML,
       portfolio2: portfolio[1].innerHTML,
