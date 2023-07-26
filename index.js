@@ -37,20 +37,24 @@ div.innerHTML = `<div class="window">
            <div class="img">
               <img src= alt="" />
             </div>
+          <div class="text-container">
 
-            <p class="">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <ul class="list-B">
-              <li class="">HTML</li>
-              <li class="">Css</li>
-              <li class="">JavaScript</li>
-            </ul>
-            <div>
-             <button>See Live</button>
-             <button>See source</button></div>
+              <div class="parag"><p class="p1"></p></div>
+             <div class="buttons">
+              <ul class="list-B">
+                <li class="">HTML</li>
+                <li class="">Css</li>
+                <li class="">JavaScript</li>
+                <li class="ruby">Ruby</li>
+                <li class="bootstrap">Boostrap</li>
+              </ul>
+            
+              <button>See Live</button>
+              <button>See source</button></div>
+            </div>
+
           </div>
+            
         </div>
       </div>`;
 
@@ -72,14 +76,13 @@ for (let btn of projectbtn) {
     const array = [];
 
     const card = e.target.parentNode.parentNode.parentNode;
-    const card4 = document.querySelector(".card");
-    console.log("car4  =", card4);
 
     const h1 = card.querySelector(".h-1").innerHTML;
     const span = card.querySelector(".project span").innerHTML;
     const backend = card.querySelectorAll(".listA-items");
     const img = card.querySelector(".cards img").src;
-    const paragraph = card4.querySelector(".p-1");
+    const paragraph = card.querySelector(".p-1");
+    console.log(paragraph);
 
     const portfolio = card.querySelectorAll(".listB-items");
 
@@ -87,7 +90,9 @@ for (let btn of projectbtn) {
     array[1] = span;
     array[2] = { list1: backend[0].innerHTML, list2: backend[1].innerHTML };
     array[3] = img;
-    array[4] = paragraph;
+    array[4] = `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`;
     array[5] = {
       portfolio1: portfolio[0].innerHTML,
       portfolio2: portfolio[1].innerHTML,
@@ -99,11 +104,13 @@ for (let btn of projectbtn) {
     const backn = document.querySelector(".backend");
     const year = document.querySelector(".year");
     let image = document.querySelector(".img img");
+    const p1 = document.querySelector(".p1");
     image.src = array[3];
     year.innerHTML = array[2].list2;
     backn.innerHTML = array[2].list1;
     canopy.innerHTML = array[1];
     heading.innerHTML = array[0];
+    p1.innerHTML = array[4];
 
     console.log(array);
   });

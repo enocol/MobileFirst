@@ -48,6 +48,17 @@ body {
   padding: 25px;
 }
 
+.heading {
+  width: 259px;
+  height: auto;
+  color: var(--neutrals-n-800, #172b4d);
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -134,7 +145,7 @@ body {
   padding: 15px;
   opacity: 1;
   border-radius: 16px;
-  border: 1px solid var(--neutrals-n-40, red);
+  border: 1px solid var(--neutrals-n-40, #dfe1e6);
   background: var(--neutrals-n-0, #fff);
   height: auto;
 }
@@ -511,6 +522,90 @@ button:active {
   letter-spacing: 0.51px;
 }
 
+.canopy {
+  display: flex;
+  gap: 25px;
+}
+
+.canopy-list {
+  display: flex;
+  gap: 25px;
+  list-style: disc;
+
+  color: var(--neutrals-n-100, #7a869a);
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.canopy span {
+  color: var(--neutrals-n-600, #344563);
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  margin-bottom: 25px;
+}
+
+.m-b {
+  margin-bottom: 18px;
+}
+
+.img img {
+  width: 311px;
+  height: 220px;
+
+  border-radius: 8px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.list-B {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.list-B li {
+  color: var(--primary-b-400, #6070ff);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.36px;
+  border-radius: 8px;
+  background: var(--primary-b-50, #ebebff);
+  height: auto;
+  width: auto;
+  padding: 10px;
+}
+
+.card-3 .p-1 {
+  height: auto;
+}
+
+.bootstrap,
+.ruby {
+  display: none;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-B {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .hamburger {
     display: none;
@@ -648,5 +743,48 @@ button:active {
     left: 95%;
     position: absolute;
     z-index: 1;
+  }
+
+  .img img {
+    width: 100%;
+    height: 586px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+
+  .heading {
+    color: var(--theme-1-neutrals-1, #091e42);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    color: var(--theme-1-neutrals-1, #091e42);
+    width: 1056px;
+    height: auto;
+  }
+
+  .card-3 .p-1 {
+    height: auto;
+  }
+
+  .bootstrap,
+  .ruby {
+    display: block;
+  }
+
+  .text-container {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .buttons {
+    width: 40%;
+  }
+
+  .parag {
+    width: 55%;
   }
 }
