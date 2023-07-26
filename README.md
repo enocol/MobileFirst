@@ -65,6 +65,7 @@
 - **Mobile View of Portfolio site**
 - **Contact form**
 - **Desktop View of Portfolio site**
+- **Mobile and desktop details popup window**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
