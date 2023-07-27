@@ -137,7 +137,7 @@ contactform.addEventListener("submit", (e) => {
   }
   if (inputEmail.value !== lowercaseEmail) {
     error.classList.add("error");
-    error.innerHTML = `Please input email in Lower case only`;
+    error.innerHTML = "Please input email in Lower case only";
     e.preventDefault();
   }
 });
