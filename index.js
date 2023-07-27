@@ -6,15 +6,16 @@ const closebutton = document.querySelector(".fa-x");
 hamburger.addEventListener("click", () => {
   menulist.classList.add("menu-visible");
 
-  for (let i = 0; i < menuitems.length; i++)
+  for (let i = 0; i < menuitems.length; i += 1) {
     menuitems[i].classList.add("menucolor");
+  }
 });
 
 closebutton.addEventListener("click", () => {
   menulist.classList.remove("menu-visible");
 });
 
-for (let i = 0; i < menuitems.length; i++) {
+for (let i = 0; i < menuitems.length; i += 1) {
   menuitems[i].addEventListener("click", () => {
     menulist.classList.remove("menu-visible");
   });
@@ -72,7 +73,7 @@ popclose.addEventListener("click", () => {
 });
 
 const projectbtn = document.querySelectorAll(".btn");
-for (let i = 0; i < projectbtn.length; i++) {
+for (let i = 0; i < projectbtn.length; i += 1) {
   projectbtn[i].addEventListener("click", (e) => {
     e.stopPropagation();
     popupwindow.classList.add("visible");
