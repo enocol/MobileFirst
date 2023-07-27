@@ -66,6 +66,7 @@
 - **Contact form**
 - **Desktop View of Portfolio site**
 - **Mobile and desktop details popup window**
+- **Validate contact form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

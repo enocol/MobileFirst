@@ -11,7 +11,19 @@
   },
   "extends": ["airbnb-base"],
   "rules": {
-    "linebreak-style":"off",
+    "prefer-destructuring": [
+      "error",
+      {
+        "array": false,
+        "object": false
+      },
+      {
+        "enforceForRenamedProperties": false
+      }
+    ],
+
+    "linebreak-style": "off",
+    "quotes": ["error", "double"],
     "no-shadow": "off",
     "no-param-reassign": "off",
     "eol-last": "off",

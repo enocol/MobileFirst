@@ -86,7 +86,7 @@
               <li class="listB-items">Css</li>
               <li class="listB-items">JavaScript</li>
             </ul>
-            <button class="btn">See Project</button>
+            <button class="btn" type="button">See Project</button>
           </div>
         </div>
       </div>
@@ -116,7 +116,7 @@
               <li class="listB-items">Css</li>
               <li class="listB-items">JavaScript</li>
             </ul>
-            <button class="btn">See Project</button>
+            <button class="btn" type="button">See Project</button>
           </div>
         </div>
       </div>
@@ -144,7 +144,7 @@
               <li class="listB-items">Css</li>
               <li class="listB-items">JavaScript</li>
             </ul>
-            <button class="btn">See Project</button>
+            <button class="btn" type="button">See Project</button>
           </div>
         </div>
       </div>
@@ -172,7 +172,7 @@
               <li class="listB-items item2">Css</li>
               <li class="listB-items item3">JavaScript</li>
             </ul>
-            <button class="btn">See Project</button>
+            <button class="btn" type="button">See Project</button>
           </div>
         </div>
       </div>
@@ -196,7 +196,7 @@
           <li><i class="fa-brands fa-github gap"></i></li>
           <li><i class="fa-brands fa-facebook-f gap"></i></li>
         </ul>
-        <button class="resume-button">Get my resume</button>
+        <button class="resume-button" type="button">Get my resume</button>
       </div>
 
       <div class="tech">
@@ -258,17 +258,17 @@
           type="text"
           name="name"
           id="username"
-          placeholder="Lorem Ipsum"
+          placeholder="Enter your name"
           maxlength="30"
-          required
+          value=""
         />
         <input
           class="emailinput"
           type="email"
           name="email"
           id="email"
-          placeholder="Loremipsum@gmail.com"
-          required
+          placeholder="Enter your email"
+          value=""
         />
         <textarea
           name="textarea"
@@ -278,9 +278,10 @@
           maxlength="500"
           class="messageinput"
           placeholder="Write your message here"
-          required
+          value=""
         ></textarea>
-        <button class="submitbutton">Get in touch</button>
+        <button class="submitbutton" type="submit">Get in touch</button>
+        <div id="errormessage"></div>
       </form>
     </section>
 
