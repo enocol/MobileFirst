@@ -5,15 +5,17 @@ const closebutton = document.querySelector(".fa-x");
 
 hamburger.addEventListener("click", () => {
   menulist.classList.add("menu-visible");
-  for (const element of menuitems) element.classList.add("menucolor");
+
+  for (let i = 0; i < menuitems.length; i++)
+    menuitems[i].classList.add("menucolor");
 });
 
 closebutton.addEventListener("click", () => {
   menulist.classList.remove("menu-visible");
 });
 
-for (const menu of menuitems) {
-  menu.addEventListener("click", () => {
+for (let i = 0; i < menuitems.length; i++) {
+  menuitems[i].addEventListener("click", () => {
     menulist.classList.remove("menu-visible");
   });
 }
@@ -70,8 +72,8 @@ popclose.addEventListener("click", () => {
 });
 
 const projectbtn = document.querySelectorAll(".btn");
-for (const btn of projectbtn) {
-  btn.addEventListener("click", (e) => {
+for (let i = 0; i < projectbtn.length; i++) {
+  projectbtn[i].addEventListener("click", (e) => {
     e.stopPropagation();
     popupwindow.classList.add("visible");
 
@@ -135,7 +137,7 @@ contactform.addEventListener("submit", (e) => {
     error.innerHTML = "Please input your name";
     e.preventDefault();
   }
-  if (inputEmail.value !== lowercaseEmail) {
+  if (inputEmail.value === "" || inputEmail.value !== lowercaseEmail) {
     error.classList.add("error");
     error.innerHTML = "Please input email in Lower case only";
     e.preventDefault();
