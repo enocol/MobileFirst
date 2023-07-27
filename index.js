@@ -81,12 +81,10 @@ for (let i = 0; i < projectbtn.length; i += 1) {
     const array = [];
 
     const card = e.target.parentNode.parentNode.parentNode;
-
     const name = card.querySelector(".h-1").innerHTML;
     const span = card.querySelector(".project span").innerHTML;
     const technologies = card.querySelectorAll(".listA-items");
     const featureimage = card.querySelector(".cards img").src;
-
     const portfolio = card.querySelectorAll(".listB-items");
 
     array[0] = name;
