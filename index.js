@@ -142,3 +142,26 @@ contactform.addEventListener("submit", (e) => {
     e.preventDefault();
   }
 });
+
+const input = document.getElementById("username");
+const email = document.getElementById("email");
+const form = document.getElementById("contact");
+const obj = {};
+input.addEventListener("input", function () {
+  obj.name = input.value;
+  localStorage.setItem("formdata", JSON.stringify(obj));
+});
+
+email.addEventListener("input", function () {
+  obj.email = email.value;
+  localStorage.setItem("formdata", JSON.stringify(obj));
+});
+
+window.addEventListener("load", function () {
+  const name = document.getElementById("username");
+  const eMail = document.getElementById("email");
+  const json = localStorage.getItem("formdata");
+  const data = JSON.parse(json);
+  name.value = data.name;
+  eMail.value = data.email;
+});
