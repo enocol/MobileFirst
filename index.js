@@ -146,14 +146,12 @@ contactform.addEventListener("submit", (e) => {
 const input = document.getElementById("username");
 const email = document.getElementById("email");
 const obj = {};
-input.addEventListener("input", function () {
-  obj.name = input.value;
-  localStorage.setItem("formdata", JSON.stringify(obj));
-});
 
-email.addEventListener("input", function () {
+contactform.addEventListener("submit", () => {
+  obj.name = input.value;
   obj.email = email.value;
   localStorage.setItem("formdata", JSON.stringify(obj));
+  console.log("objext", obj);
 });
 
 window.addEventListener("load", function () {
