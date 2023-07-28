@@ -67,6 +67,7 @@
 - **Desktop View of Portfolio site**
 - **Mobile and desktop details popup window**
 - **Validate contact form**
+- **Local Storage of input values**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,6 +141,7 @@ Deploy this project on any websever
 
 - [ ] **Desktop View now available**
 - [ ] **Contact Form now available**
+- [ ] **Responsive design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
