@@ -151,10 +151,9 @@ contactform.addEventListener("submit", () => {
   obj.name = input.value;
   obj.email = email.value;
   localStorage.setItem("formdata", JSON.stringify(obj));
-  console.log("objext", obj);
 });
 
-window.addEventListener("load", function () {
+window.addEventListener("load", () => {
   const name = document.getElementById("username");
   const eMail = document.getElementById("email");
   const json = localStorage.getItem("formdata");
