@@ -145,7 +145,6 @@ contactform.addEventListener("submit", (e) => {
 
 const input = document.getElementById("username");
 const email = document.getElementById("email");
-const form = document.getElementById("contact");
 const obj = {};
 input.addEventListener("input", function () {
   obj.name = input.value;
