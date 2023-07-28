@@ -145,7 +145,16 @@ contactform.addEventListener("submit", (e) => {
 
 const input = document.getElementById("username");
 const email = document.getElementById("email");
-const obj = {};
+const inputs = document.querySelectorAll(".nameinput, .emailinput");
+
+for (let i = 0; i < inputs.length; i += 1) {
+  inputs[i].addEventListener("input", () => {
+    const obj = {};
+    obj.name = input.value;
+    obj.email = email.value;
+    localStorage.setItem("formdata", JSON.stringify(obj));
+  });
+}
 
 contactform.addEventListener("submit", () => {
   obj.name = input.value;
