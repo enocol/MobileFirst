@@ -145,13 +145,15 @@ contactform.addEventListener("submit", (e) => {
 
 const input = document.getElementById("username");
 const email = document.getElementById("email");
-const inputs = document.querySelectorAll(".nameinput, .emailinput");
+const message = document.querySelector(".messageinput");
+const inputs = document.querySelectorAll(".nameinput, .emailinput, .messageinput");
 const obj = {};
 
 for (let i = 0; i < inputs.length; i += 1) {
   inputs[i].addEventListener("input", () => {
     obj.name = input.value;
     obj.email = email.value;
+    obj.messages = message.value;
     localStorage.setItem("formdata", JSON.stringify(obj));
   });
 }
@@ -159,14 +161,18 @@ for (let i = 0; i < inputs.length; i += 1) {
 contactform.addEventListener("submit", () => {
   obj.name = input.value;
   obj.email = email.value;
+  obj.messages = message.value;
   localStorage.setItem("formdata", JSON.stringify(obj));
 });
 
 window.addEventListener("load", () => {
   const name = document.getElementById("username");
   const eMail = document.getElementById("email");
+  const msg = document.querySelector(".messageinput");
+  console.log(msg);
   const json = localStorage.getItem("formdata");
   const data = JSON.parse(json);
   name.value = data.name;
   eMail.value = data.email;
+  msg.value = data.messages;
 });
