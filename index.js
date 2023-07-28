@@ -146,10 +146,10 @@ contactform.addEventListener("submit", (e) => {
 const input = document.getElementById("username");
 const email = document.getElementById("email");
 const inputs = document.querySelectorAll(".nameinput, .emailinput");
+const obj = {};
 
 for (let i = 0; i < inputs.length; i += 1) {
   inputs[i].addEventListener("input", () => {
-    const obj = {};
     obj.name = input.value;
     obj.email = email.value;
     localStorage.setItem("formdata", JSON.stringify(obj));
