@@ -1,4 +1,4 @@
-const hamburger = document.querySelector(".fa");
+const hamburger = document.querySelector("fa");
 const menulist = document.querySelector(".menu-list");
 const menuitems = document.querySelectorAll(".menu-item");
 const closebutton = document.querySelector(".fa-x");
@@ -146,7 +146,9 @@ contactform.addEventListener("submit", (e) => {
 const input = document.getElementById("username");
 const email = document.getElementById("email");
 const message = document.querySelector(".messageinput");
-const inputs = document.querySelectorAll(".nameinput, .emailinput, .messageinput");
+const inputs = document.querySelectorAll(
+  ".nameinput, .emailinput, .messageinput"
+);
 const obj = {};
 
 for (let i = 0; i < inputs.length; i += 1) {
