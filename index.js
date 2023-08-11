@@ -1,4 +1,4 @@
-const hamburger = document.querySelector("fa");
+const hamburger = document.querySelector(".fa");
 const menulist = document.querySelector(".menu-list");
 const menuitems = document.querySelectorAll(".menu-item");
 const closebutton = document.querySelector(".fa-x");
