@@ -75,7 +75,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://enocol.github.io/)
+- [Live Demo Link](https://enocol.github.io/MobileFirst/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
